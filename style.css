@@ -1,3 +1,45 @@
-.test{
-    color:blue;
+ /* Add some basic styles to make the page more readable */
+ body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  #account-info {
+    margin-bottom: 30px;
+  }
+
+  #history {
+    margin-top: 30px;
+  }
+
+  #history th,
+  #history td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  #latest-submission th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  #latest-submission {
+    margin-top: 30px;
+  }
+
+  #latest-submission th,
+  #latest-submission td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  #latest-submission th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+.icon{
+    height: 50px;
+    width: 50px;
 }

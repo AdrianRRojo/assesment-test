@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Adrian's Assesment</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div>
-            <h1 class="test">HELLO</h1>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adrian's Assesment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+  <h1>Account Information</h1>
+  <div id="account-info"></div>
+  <div>
+    <div id="error-message" class="error" style="display: none;"></div>
+    <form id="form">
+        <label for="code"> Enter your code here</label> <br>
+        <input type="text" id="code" name="code"></input>
 
-        </div>
-        <script src="index.js " async defer></script>
-    </body>
+		<select id="product" name="product" required>
+			<option value="">Select product type</option>
+			<option value="Bottle">Bottle</option>
+			<option value="Package">Package</option>
+		</select>
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+  <h2>Submission History</h2>
+  
+  <table id="latest-submission">
+    <h2>Latest Submission</h2>
+    <thead>
+        <tr>
+          <th>Code</th>
+          <th>Product</th>
+          <th>Submitted</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </table>
+
+  <table id="history">
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Product</th>
+        <th>Submitted</th>
+        <th>Winner</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="index.js " async defer></script>
+</body>
 </html>

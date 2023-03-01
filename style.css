@@ -2,8 +2,8 @@ body {
   font-family: 'Racing Sans One', cursive;
   font-size: 20px;
   color: white;
-  background: url("background.jpg"); /* enter the image path */
-
+  background: url("./images/background.png"); 
+  background-color: black;
 }
 .errormsg{
   text-align: center;

@@ -2,7 +2,7 @@ body {
   font-family: 'Racing Sans One', cursive;
   font-size: 20px;
   color: white;
-  background: url("/images/background.jpg"); /* enter the image path */
+  background: url("background.jpg"); /* enter the image path */
 
 }
 .errormsg{

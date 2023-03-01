@@ -1,4 +1,4 @@
-# MRI - Assesment
+# MRI - Assessment
 
 ## Description
 I created this website in response to MRI's assessment prompt, utilizing HTML, CSS, and JavaScript. Images were created using Adobe Express, and finding images on Google. I used the Pure framework to assist in creating a cleaner input form.

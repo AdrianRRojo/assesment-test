@@ -5,7 +5,9 @@ body {
   background: url("/images/background.jpg"); /* enter the image path */
 
 }
-
+.errormsg{
+  text-align: center;
+}
 .eRwards{
   justify-content: center;
 }

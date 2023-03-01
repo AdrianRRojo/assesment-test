@@ -28,7 +28,7 @@ fetch('https://api-test.promotiongeeks.com/user')
         //determine if the entrant has won previously
         let hasWonBefore = false;
 
-    // Loop over the entries to check for a winning combination
+      // Loop over the entries to check for a winning combination
         data.entries.forEach(entry => {
       // Check if the entry is a winning combination
         if (entry.winner) {
@@ -40,6 +40,9 @@ fetch('https://api-test.promotiongeeks.com/user')
     } else {
       console.log('User has not won before');
     }
+
+
+    // Code submission form
     const form = document.getElementById('form');
 
       // Add event listener for form submit
@@ -70,6 +73,7 @@ fetch('https://api-test.promotiongeeks.com/user')
           previousSubmissions.push(submissionData);
           localStorage.setItem('submissions', JSON.stringify(previousSubmissions));
         
+          // Add newest submission the to the history table
           const newestEntry = document.querySelector('#history tbody');
           const row = newestEntry.insertRow();
           row.innerHTML = `

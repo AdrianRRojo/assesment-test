@@ -1,45 +1,76 @@
- /* Add some basic styles to make the page more readable */
- body {
-    font-family: Arial, sans-serif;
-  }
+body {
+  font-family: 'Racing Sans One', cursive;
+  font-size: 20px;
+  color: white;
+  background: url("/images/background.jpg"); /* enter the image path */
 
-  h1 {
-    margin-bottom: 20px;
-  }
+}
 
-  #account-info {
-    margin-bottom: 30px;
-  }
+.eRwards{
+  justify-content: center;
+}
+.account-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h1, h2, p{
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+h2{
+  color: rgb(243, 199, 87);
+  font-size: 30px;
+}
+p, label{
+  font-size: 25px
+}
 
-  #history {
-    margin-top: 30px;
-  }
+#form{
+  text-align: center;
+  
+}
 
-  #history th,
-  #history td {
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+hr {
+  border: 1px solid rgb(200, 21, 21);
+  width: 50%;
+}
+#history, #latest-submission {
+  margin-top: 20px;
+}
 
-  #latest-submission th {
-    font-weight: bold;
-    background-color: #f2f2f2;
-  }
-  #latest-submission {
-    margin-top: 30px;
-  }
+#history th,
+#history td,
+#latest-submission th,
+#latest-submission td {
 
-  #latest-submission th,
-  #latest-submission td {
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+  padding: 5px;
+  border: 1px solid rgb(243, 199, 87);
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #latest-submission th {
-    font-weight: bold;
-    background-color: #f2f2f2;
-  }
-.icon{
-    height: 50px;
-    width: 50px;
+.xbox{
+  width: 35%;
+}
+.amazon{
+  float: right;
+  width: 30%
+}
+.eRwards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
